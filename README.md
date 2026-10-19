@@ -25,7 +25,12 @@ GNOME Shell 扩展：用系统自带截图工具截完图后，自动弹出全�
 
 要求 GNOME Shell 46。目录名必须与 `metadata.json` 里的 `uuid` 一致。
 
+### 从 GitHub 安装（推荐）
+
+需要 `git`。直接 clone 到扩展目录：
+
 ```bash
+mkdir -p ~/.local/share/gnome-shell/extensions
 git clone https://github.com/todouu/nativeshot \
   ~/.local/share/gnome-shell/extensions/nativeshot@todou.local
 ```
@@ -36,9 +41,11 @@ git clone https://github.com/todouu/nativeshot \
 gnome-extensions enable nativeshot@todou.local
 ```
 
-更新：`git pull` 后同样需要重启 Shell，修改过的 `.js` 才会生效。
+更新：在扩展目录里 `git pull`，然后同样需要重启 Shell，修改过的 `.js` 才会生效。
 
-也可以打包安装：
+### 打包安装
+
+不想保留 git 仓库时，可以在源码目录打包后安装：
 
 ```bash
 gnome-extensions pack --force \
