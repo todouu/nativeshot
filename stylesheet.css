@@ -1,0 +1,49 @@
+.nativeshot-backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nativeshot-toolbar {
+    background-color: #303030;
+    border-radius: 12px;
+    padding: 6px;
+    spacing: 6px;
+}
+
+.nativeshot-toolbar .button {
+    padding: 6px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #444444;
+}
+
+.nativeshot-toolbar .button:hover {
+    background-color: #5a5a5a;
+}
+
+.nativeshot-toolbar .button:checked {
+    background-color: #3584e4;
+}
+
+.nativeshot-toolbar .nativeshot-swatch {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+}
+
+.nativeshot-toolbar .nativeshot-swatch:checked {
+    border: 2px solid #ffffff;
+}
+
+.nativeshot-toolbar .nativeshot-width-label {
+    font-weight: bold;
+    min-width: 16px;
+    text-align: center;
+}
+
+.nativeshot-separator {
+    width: 1px;
+    background-color: #5a5a5a;
+    margin: 4px 2px;
+}

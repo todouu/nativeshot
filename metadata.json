@@ -1,0 +1,7 @@
+{
+  "uuid": "nativeshot@todou.local",
+  "name": "NativeShot",
+  "description": "Quick annotate screenshots taken with the GNOME screenshot tool: pencil, rectangle, arrow, mosaic and text, with movable layers.\n\nClipboard access: after you save an edit, the extension overwrites the original screenshot file and replaces the clipboard image with the edited one. The clipboard is never read or shared.",
+  "shell-version": ["46"],
+  "url": ""
+}
