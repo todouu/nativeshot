@@ -26,7 +26,7 @@ GNOME Shell 扩展：用系统自带截图工具截完图后，自动弹出全�
 要求 GNOME Shell 46。目录名必须与 `metadata.json` 里的 `uuid` 一致。
 
 ```bash
-git clone https://github.com/<用户名>/nativeshot \
+git clone https://github.com/todouu/nativeshot \
   ~/.local/share/gnome-shell/extensions/nativeshot@todou.local
 ```
 
