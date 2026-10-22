@@ -17,7 +17,7 @@ GNOME Shell 扩展：用系统自带截图工具截完图后，自动弹出全�
 | 按键 | 作用 |
 | --- | --- |
 | Esc | 取消并关闭（不改动原文件） |
-| Enter / Ctrl+S | 保存并关闭 |
+| Enter / Ctrl+S / Ctrl+C | 保存并关闭 |
 | Ctrl+Z | 撤销 |
 | Ctrl+Shift+Z / Ctrl+Y | 重做 |
 | Delete | 删除选中的图层（仅“选择”工具） |

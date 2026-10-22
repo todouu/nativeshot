@@ -605,7 +605,8 @@ export const Editor = GObject.registerClass({
             return Clutter.EVENT_STOP;
         }
         if (sym === Clutter.KEY_Return || sym === Clutter.KEY_KP_Enter ||
-            (ctrl && (sym === Clutter.KEY_s || sym === Clutter.KEY_S))) {
+            (ctrl && (sym === Clutter.KEY_s || sym === Clutter.KEY_S ||
+                      sym === Clutter.KEY_c || sym === Clutter.KEY_C))) {
             this._save();
             return Clutter.EVENT_STOP;
         }
